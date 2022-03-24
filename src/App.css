@@ -45,7 +45,10 @@ p {
   border: 3px solid #eee;
   width: 30vw;
   margin: 40px;
-  padding: 30px;
+  padding-top:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
   height: 30vh;
   text-align: left;
 }
@@ -78,23 +81,27 @@ p {
 
 #example-serif {
   font-family: "Roboto Slab", serif;
-  font-size: 36.5px;
+  /* font-size: 36.5px; */
+  font-size: 41px;
 }
 
 #example-sans-serif {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  /* font-size: 40px; */
+  font-size: 45px;
 }
 
 button {
   font-family: "Roboto";
   background-color: white;
-  width: 75px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  font-size: 20px;
 }
 
 #line-spacing {
-  line-height: 220%;
+  line-height: 1%;
 }
 
 .spacing-container {
@@ -103,9 +110,127 @@ button {
   align-items: center;
 }
 
+
 #double {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
+}
+
+#pairing-header {
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+#pairing-body {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.pairingBody1 {
+  font-size: 25px;
+  font-family: "Roboto";
+  margin-top: 15px;
+}
+.pairingBody2 {
+  font-size: 25px;
+  font-family: "Pacifico";
+  margin-top: 15px;
+}
+.pairingBody3 {
+  font-size: 20px;
+  font-family: "Open Sans";
+  margin-top: 15px;
+}
+.pairingHeader1 {
+  font-size: 40px;
+  font-family: "Roboto";
+  margin-bottom: 0px;
+}
+.pairingHeader2 {
+  font-size: 45px;
+  font-family: "Yellowtail";
+  margin-bottom: 0px;
+}
+.pairingHeader3 {
+  font-size: 45px;
+  font-family: "Yellowtail";
+  margin-bottom: 0px;
+}
+
+#emphasis-normal {
+  font-size: 40px;
+}
+
+.emphasis1{
+  font-size: 40px;
+}
+.emphasis2 {
+  font-size: 50px;
+}
+.emphasis3 {
+  font-size: 40px;
+  font-style: oblique;
+}
+.emphasis4 {
+  font-size: 40px;
+  font-weight: 900;
+}
+.emphasis5 {
+  font-size: 40px;
+  text-decoration: underline;
+}
+.emphasis6 {
+  font-size: 40px;
+  color: red;
+}
+.emphasis7 {
+  font-size: 40px;
+  background-color: yellow;
+}
+.emphasis8 {
+  font-size: 50px;
+  text-decoration: underline;
+  font-weight: 900;
+  font-style: oblique;
+  background-color: yellow;
+  color: red;
+}
+
+
+#legibility {
+  font-size: 40px;
+  color: hsl(233, 100%, 55%);
+}
+
+.dark-background {
+  background-color: black;
+}
+
+a {
+  font-size: 40px;
+  text-decoration: none;
+  color: #0745AD;
+  font-weight: bold;
+}
+
+#bottom {
+  margin-bottom: 40vh;
+}
+
+label {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+input {
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
 }
