@@ -1,38 +1,111 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+body {
+  color: #333;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 150px;
+  margin-top: 30vh;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 80px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: -30px;
+}
+
+p {
+  font-family: "Roboto";
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50vh;
+}
+
+.example {
+  border: 3px solid #eee;
+  width: 30vw;
+  margin: 40px;
+  padding: 30px;
+  height: 30vh;
+  text-align: left;
+}
+
+#helv1 {
+  font-family: Helvetica;
+  font-size: 20px;
+}
+#helv2 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 20px;
+}
+#helv3 {
+  font-family: Helvetica;
+  font-style: oblique;
+  font-size: 20px;
+}
+#helv4 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+}
+#helv5 {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 20px;
+}
+
+#example-serif {
+  font-family: "Roboto Slab", serif;
+  font-size: 36.5px;
+}
+
+#example-sans-serif {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+}
+
+button {
+  font-family: "Roboto";
+  background-color: white;
+  width: 75px;
+  height: 30px;
+}
+
+#line-spacing {
+  line-height: 220%;
+}
+
+.spacing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#double {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  align-items: center;
 }
